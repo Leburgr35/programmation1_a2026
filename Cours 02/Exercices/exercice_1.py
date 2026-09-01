@@ -21,30 +21,30 @@
 #         x = 10; y = 20
 #         print(x + y)
 #     A) 1     B) 2     C) 3     D) 4
-reponse_a1 = "C1"
+reponse_a1 = "C"
 
 # A2) Pourquoi Print("Bonjour") ne fonctionne-t-il pas ?
 #     A) La fonction print() n'existe pas en Python
 #     B) Python est sensible a la casse
 #     C) Il manque un point-virgule a la fin
 #     D) La chaine de caracteres est mal fermee
-reponse_a2 = "B2"
+reponse_a2 = "B"
 
 # A3) Quel nom de VARIABLE respecte la convention PEP 8 ?
 #     A) nbEtudiants     B) NbEtudiants     C) nb_etudiants     D) 2_etudiants
-reponse_a3 = "C3"
+reponse_a3 = "C"
 
 # A4) Quel nom convient a une CONSTANTE ?
 #     A) taux_tps        B) TAUX_TPS        C) TauxTps          D) tauxTPS
-reponse_a4 = "B4"
+reponse_a4 = "B"
 
 # A5) Quel est le type de la valeur True ?
 #     A) str             B) int             C) bool             D) float
-reponse_a5 = "C5"
+reponse_a5 = "C"
 
 # A6) Que retourne type(3.0) ?
 #     A) <class 'int'>   B) <class 'float'> C) <class 'str'>    D) une erreur
-reponse_a6 = "B6"
+reponse_a6 = "B"
 
 
 # -------------------------------------------------------------

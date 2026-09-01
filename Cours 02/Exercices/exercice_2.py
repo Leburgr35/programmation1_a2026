@@ -31,10 +31,10 @@ reponse_a3 = 2
 reponse_a4 = -4
 
 # A5) 10 / 2
-reponse_a5 = 5
+reponse_a5 = 5.0
 
 # A6) Le type du resultat de 10 / 2, sous forme de chaine : "int" ou "float"
-reponse_a6 = int
+reponse_a6 = float
 
 
 # -------------------------------------------------------------
@@ -56,7 +56,7 @@ reponse_b4 = 1
 
 # B5) On part de y = 7, puis on applique  y /= 7
 #     Quelle est la valeur de y ? (attention au type!)
-reponse_b5 = 1
+reponse_b5 = 1.0
 
 
 # -------------------------------------------------------------
@@ -73,7 +73,7 @@ SECONDES_PAR_HEURE = SECONDES_PAR_MINUTE * MINUTES_PAR_HEURE
 
 nb_heures = 2    # int
 nb_minutes = 46   # int, entre 0 et 59
-nb_secondes = 60  # int, entre 0 et 59
+nb_secondes = 40# int, entre 0 et 59
 
 
 # -------------------------------------------------------------
@@ -101,10 +101,11 @@ total_facture = 86.1967575 # sous-total + les deux taxes
 
 # D1) Affiche la duree sous la forme :  2 h 46 min 40 s
 # print(...)
+print(f"{nb_heures} h {nb_minutes} min {nb_secondes} s")
 
 # D2) Affiche le total de la facture, suivi de " $"
 # print(...)
-
+print(f"{total_facture} $")
 
 # -------------------------------------------------------------
 # PARTIE E - Deboguer                                  (15 min)
@@ -116,16 +117,16 @@ total_facture = 86.1967575 # sous-total + les deux taxes
 
 # E1) De quel TYPE est la toute premiere erreur signalee par Python ?
 #     Reponds par "SyntaxError" ou "IndentationError".
-reponse_e1 = None
+reponse_e1 = SyntaxError
 
 # E2) Parmi les 6 blocs numerotes du fichier, lequel produit une
 #     IndentationError ? Reponds par le numero du bloc (un entier).
-reponse_e2 = None
+reponse_e2 = 6
 
 # E3) Vrai ou faux : Python signale toujours la ligne exacte de la faute.
 #     Reponds par True ou False.
-reponse_e3 = None
+reponse_e3 = False
 
 # E4) Combien de lignes le programme corrige affiche-t-il au total ?
 #     Reponds par un entier.
-reponse_e4 = None
+reponse_e4 = 1

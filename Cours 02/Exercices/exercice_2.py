@@ -34,7 +34,7 @@ reponse_a4 = None
 reponse_a5 = None
 
 # A6) Le type du resultat de 10 / 2, sous forme de chaine : "int" ou "float"
-reponse_a6 = None
+reponse_a6 = int
 
 
 # -------------------------------------------------------------

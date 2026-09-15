@@ -19,6 +19,8 @@ Les exercices sont regroupés selon les fiches du cours et se font dans l'ordre.
 ### Exercice 1 — 🟢 Facile
 
 Demande à l'utilisateur son prénom et affiche : `Bonjour <prénom> !`.
+prenom = str(input("Quelle est ton nom?"))
+print(f"Bonjour {prenom} !")
 
 Résultat:  
 ![Exercice 1](../../images/cours03/exercice-01.png)
@@ -27,12 +29,22 @@ Résultat:
 
 Demande à l'utilisateur deux nombres et affiche leur somme.
 
+nb1 = int(input("Choisi un nombre"))
+nb2 = int(input("choisi un deuxieme nombre"))
+total = nb1 + nb2
+print(total)
+
 Résultat:  
 ![Exercice 2](../../images/cours03/exercice-02.png)
 
 ### Exercice 3 — 🟢 Facile
 
 Demande l'âge de l'utilisateur et affiche `Tu as X ans. Tu es né(e) en AAAA`.
+
+age = int(input("qu'elle est ton âge?"))
+annee_actuelle = 2026   # jsp si il est possible d'avoir l'année exact
+annee_naissance = annee_actuelle - age
+print(f"Tu as {age} ans. Tu es né(e) en {annee_naissance}")
 
 *Remarque* : il est possible que l'année de naissance réelle diffère de 1 par rapport à votre affichage, si l'anniversaire de l'utilisateur n'est pas encore atteint dans l'année courante.
 
@@ -42,6 +54,8 @@ Résultat:
 ### Exercice 4 — 🟡 Moyen
 
 Demande un prix unitaire (nombre décimal) et une quantité (nombre entier), puis affiche le total à payer.
+
+
 
 Résultat:  
 ![Exercice 4](../../images/cours03/exercice-04.png)
